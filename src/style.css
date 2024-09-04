@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Background color for the whole page */
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+
+.nav-column {
+    width: 20%;
+    background-color: #e0e0e0; /* Change this to any desired background color for the navigation column */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distributes space between items */
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 80px;
+    height: 80px;
+    background-color: #ccffcc; /* Background color for the profile image area; change to desired color */
+    border-radius: 50%; /* Makes the image circular */
+    margin: 0 auto 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-list {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.project-button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #d9d9d9; /* Background color for the project buttons; change to desired color */
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.project-button:hover {
+    background-color: #c0c0c0; /* Hover effect color for the project buttons; change to desired color */
+}
+
+.tools-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tool-item {
+    width: 30px;
+    height: 30px;
+    background-color: #99cc99; /* Background color for the tools; change to desired color */
+    margin: 5px;
+}
+
+.content-column {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff; /* Background color for content area; change to desired color */
+}
+
+.header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.visualization-area {
+    flex: 1; /* Fills the remaining space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0; /* Change to desired background color */
+}
